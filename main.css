@@ -9,3 +9,16 @@ body {
     height: 100%;
     background: linear-gradient(to right, #C02425 50%, #F0CB35 50% ) fixed;
 }
+
+.container {
+    width: 90vmin;
+    background-color: #1d1b1b;
+    color: #e2dada;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%); /* place in the center like flexbox */
+    top: 50%;
+    left: 50%;
+    border-radius:  5px;
+    box-shadow: 0 30px 45px rgba(60, 60, 60, 0.7);
+}
