@@ -22,3 +22,32 @@ body {
     border-radius:  5px;
     box-shadow: 0 30px 45px rgba(60, 60, 60, 0.7);
 }
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper input {
+    width: 60%;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.wrapper button {
+    width: 30%;
+    background-color: rgb(179, 11, 11);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.container p {
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 30px;
+} 
+
